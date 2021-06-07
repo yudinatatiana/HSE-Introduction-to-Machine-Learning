@@ -4,4 +4,4 @@
 
 Run the following two examples; which performs better?
 
-![Task 1](/SVM/task_1.png)
+![Task 1](/SVM/task_1.PNG)
