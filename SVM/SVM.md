@@ -10,3 +10,11 @@ Run the following two examples; which performs better?
 ![Task 1](/SVM/task_1.PNG)
 
 **Answer:** The first example (with gradient vector) works faster both in time (5.11 < 7.35) and in the number of iterations (3 < 4). Also, in the first case, the value of the objective function turned out to be equal to 0, and in the second case, it is greater than 0 (5.72).
+
+# Task 2 - 4
+
+**Answer:** in SVM.py 
+
+# Task 5 
+
+**Answer:** All three models split the data correctly. It seems that SVMs perform better because they are not as close to the red class as the perceptron.
