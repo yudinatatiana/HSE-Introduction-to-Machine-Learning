@@ -17,4 +17,11 @@ Run the following two examples; which performs better?
 
 # Task 5 
 
+Use numpy.random.normal to generate two isolated clusters of points in 2 dimensions, one x_plus and one x_minus, and graph the three hyperplanes found by training:
+- an averaged perceptron
+- support vector machine without gradient
+- support vector machine with gradient.
+
+How do they compare?
+
 **Answer:** All three models split the data correctly. It seems that SVMs perform better because they are not as close to the red class as the perceptron.
