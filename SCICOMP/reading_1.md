@@ -1,4 +1,4 @@
-# Practical 1
+# Reading 1
 
 ## Ideas of electronics
 
