@@ -25,6 +25,8 @@ four-digit binary numbers | single-digit hexadecimal number
 1110                      |E
 1111                      |F
 
+### Floating point numbers
+
 #### Exercise: Pretend we use a naïve floating-point format with 5bit mantissa and 3bit exponent (base-2). What is the smallest possible positive number representable? What is the largest positive number representable? The first bit of each is used for sign:
 
 The smallest possible positive number representable: [00001][111] = 1 \* 2^0 \* 10^(-3) = 0.001
