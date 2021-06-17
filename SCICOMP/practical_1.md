@@ -101,6 +101,7 @@ X | Y | A = NOR(0,X) | B = NOR(0,Y) | C = NOR(0, A) | D = NOR(0, B) | NOR(C, D)
 Try:
 
 NOT(X) = AND(0,X) 
+
 NOT(X) = AND(1,X)
 
 X | NOT(X) | AND(0,X)
@@ -116,7 +117,9 @@ X | NOT(X) | AND(1,X)
 Try:
 
 OR(X,Y) = AND(AND(0, X), AND(0, Y))
+
 OR(X,Y) = AND(AND(0, X), AND(1, Y))
+
 OR(X,Y) = AND(AND(1, X), AND(1, Y))
 
 X | Y | A = AND(0, X) | B = AND(0, Y) | AND(A, B) | OR(X, Y)
