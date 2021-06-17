@@ -176,7 +176,7 @@ $ b2sum testfile testfile2 # blake2
 
 #### Exercise: implement the Caesar cipher in python, which advances each letter of 'M' by 'SEC = n': enc(1, "a") = "b", etc.
 
-*you can find in practical_2.py*
+*you can find in reading_2.py*
 
 ```python
 def caesar_cipher(text, step, alphabets):
