@@ -63,18 +63,21 @@ Decimal('0.01000000000000000020816681711721685132943093776702880859375')
 
 
 |x[0]|next|                    |x[2]|NULL|
-.           \\                 /
-.            \\               /
-.             \\             /
-.               |x[1]|next |
+
+            \                 /
+
+              \              /
+
+               \            /
+
+                |x[1]|next |
 
 
 |x[0]|next|----------->-------------|x[2]|NULL|
 
-                | x[1] | next |
+| x[1] | next |
 
 
- 
 ### Trees
 
 #### Exercise: assemble the numbers 1-10 into binary search trees which are (a) maximally unbalanced to the left, (b) balanced, (c) one step from balanced.
@@ -103,19 +106,19 @@ a) maximally unbalanced to the left
 
 b) balanced
 
-            5
-         /     \
-        3       8
-       / \     / \
+             5
+          /     \
+         3       8
+        / \     / \
        2   4   7   9
       /       /     \
      1       6       10
 
 c) one step from balanced.
 
-            5
-           / \
-          3   8
+           5
+          / \
+         3   8
         /   / \
        2   7   9
       /   /     \
