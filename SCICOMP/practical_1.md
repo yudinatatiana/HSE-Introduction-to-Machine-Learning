@@ -153,8 +153,11 @@ X | Y | A = AND(1, X) | B = AND(1, Y) | AND(A, B) | OR(X, Y)
 #### Exercise: Convert 11 to binary.
 
 11 / 2 = 5 modulo 1
+
 5 / 2 = 2 modulo 1
+
 2 / 2 = 1 modulo 0
+
 1 / 2 = 0 modulo 1
 
 11 -> 1011
@@ -162,9 +165,13 @@ X | Y | A = AND(1, X) | B = AND(1, Y) | AND(A, B) | OR(X, Y)
 #### Exercise: Convert these powers of 2 into binary: 2, 4, 8, 16, 32. What do you notice?
 
 2 = 10
+
 4 = 100
+
 8 = 1000
+
 16 = 10000
+
 32 = 100000
 
 A new binary bit is added
@@ -172,9 +179,13 @@ A new binary bit is added
 #### Exercise: Convert these numbers into binary: 1, 3, 7, 15, 31 (they are all 2^n - 1 for some n). What do you notice?
 
 1 = 1
+
 3 = 11
+
 7 = 111
+
 15 = 1111
+
 31 = 11111
 
 These numbers are one less than the nearest greater power of two. They can be obtained by subtracting one from a power of two, or simply remember that there is one less digit in them and all the digits are filled with ones
@@ -182,15 +193,22 @@ These numbers are one less than the nearest greater power of two. They can be ob
 #### Exercise: check that these numbers all have the same 3-bit representation: 3 = 11 = 17, 0 = 8 = 16, 2 = 10 = 18.
 
 3 = **011**
+
 11 = 1**011**
+
 17 = 10001
 
+
 0 = **000**
+
 8 = 1**000**
+
 16 = 10**000**
 
 2 = **010**
+
 10 = **010**10
+
 18 = 10**010**
 
 ### Binary arithmetic as logical operations
@@ -226,9 +244,6 @@ A | B | NAND(A,B)
 1 | 0 | 1
 1 | 1 | 0
 
-
-
-
 ### Exercise: Using A and B as the inputs, and OUT as the output, explain how this circuit acts as NAND(A,B); for each entry in the truth table, follow the explanation above. True is "high energy" and False is "low energy".
 
  A |  B | NAND(A,B) |
@@ -245,6 +260,7 @@ A | B | NAND(A,B)
 #### Exercise: show that every IPv4 can be represented by four 8bit unsigned integers, and that every 8bit unsigned integer is between 0 and 255.
 
 IPv4 = XXXXXXXX.XXXXXXXX.XXXXXXXX.XXXXXXXX is 32-bit number = 4 \* 8
+
 Every XXXXXXXX could be from 00000000 to 11111111 (form 0 to 255)
 
 #### Exercise: how many IPv4 addresses are there? Is it enough? Explain.
@@ -256,15 +272,24 @@ Every XXXXXXXX could be from 00000000 to 11111111 (form 0 to 255)
 **Command:** ping yandex.ru
 
 **Result:** Обмен пакетами с yandex.ru [77.88.55.88] с 32 байтами данных:
+
 Ответ от 77.88.55.88: число байт=32 время=10мс TTL=247
+
 Ответ от 77.88.55.88: число байт=32 время=12мс TTL=247
-Ответ от 77.88.55.88: число байт=32 время=11мс TTL=247
+
 Ответ от 77.88.55.88: число байт=32 время=11мс TTL=247
 
+Ответ от 77.88.55.88: число байт=32 время=11мс TTL=247
+
+
 Статистика Ping для 77.88.55.88:
+
     Пакетов: отправлено = 4, получено = 4, потеряно = 0
+    
     (0% потерь)
+    
 Приблизительное время приема-передачи в мс:
+
     Минимальное = 10мсек, Максимальное = 12 мсек, Среднее = 11 мсек
 
 ### Bandwidth, latency, reliability
