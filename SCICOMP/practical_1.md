@@ -245,9 +245,38 @@ A | B | NAND(A,B)
 #### Exercise: show that every IPv4 can be represented by four 8bit unsigned integers, and that every 8bit unsigned integer is between 0 and 255.
 
 IPv4 = XXXXXXXX.XXXXXXXX.XXXXXXXX.XXXXXXXX is 32-bit number = 4 \* 8
-XXXXXXXX could be from 00000000 to 11111111 (form 0 to 255)
+Every XXXXXXXX could be from 00000000 to 11111111 (form 0 to 255)
 
 #### Exercise: how many IPv4 addresses are there? Is it enough? Explain.
 
-2^32 = 4294967296 addresses.  
+2^32 = 4294967296 addresses. I think this is not enough given how fast the Internet is growing.
 
+#### Exercise: use ping in a terminal to resolve a domain name. Copy-paste the command you used, and the result.
+
+**Command:** ping yandex.ru
+
+**Result:** Обмен пакетами с yandex.ru [77.88.55.88] с 32 байтами данных:
+Ответ от 77.88.55.88: число байт=32 время=10мс TTL=247
+Ответ от 77.88.55.88: число байт=32 время=12мс TTL=247
+Ответ от 77.88.55.88: число байт=32 время=11мс TTL=247
+Ответ от 77.88.55.88: число байт=32 время=11мс TTL=247
+
+Статистика Ping для 77.88.55.88:
+    Пакетов: отправлено = 4, получено = 4, потеряно = 0
+    (0% потерь)
+Приблизительное время приема-передачи в мс:
+    Минимальное = 10мсек, Максимальное = 12 мсек, Среднее = 11 мсек
+
+### Bandwidth, latency, reliability
+
+#### Exercise: The Multipath TCP project aims to allow TCP packets to be split across multiple network links and reassembled at the destination. For example, if you were uploading a 100 megabyte file to a server from your phone, it would allow you to send 75 megabytes by WiFi and 25 megabytes by cellular automatically. How should the ratio be chosen if you want to minimise transmission time? Minimise cellular bandwidth use? Explain.
+
+#### Exercise: UDP is popular for streaming media; explain why.
+
+UDP is faster and offers lower latency, which is important for streaming media.
+
+#### Exercise: Read the Wikipedia articles on multicast and anycast routing. Why is anycast good for content delivery networks, and why is multicast good for live-streaming? What are some other uses for these?
+
+Anycast sends data to the closest recipients, which allows for fast data transfers, which is why it is good for content delivery networks.
+
+Multicast requires the source to send a packet once, which allows for more efficient use of the network infrastructure. Therefore, this type of data transfer is good for real-time streaming. 
