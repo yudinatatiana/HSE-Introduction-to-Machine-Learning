@@ -18,15 +18,18 @@ Synchronous communication: video communication via zoom or skype, phone call
 
 "ls" - outputs only names of files and directories in the current directory.
 
-```$ ls
+```
+$ ls
 
 'Decision trees'         accuracy-vs-max_depth.png   plot.png            svm-svm-perceptron.pdf
 'Decision trees.ipynb'   data.csv                    practical_2.ipynb   testfile
- SVM.ipynb               data_after_task2.csv        project             testfile2```
+ SVM.ipynb               data_after_task2.csv        project             testfile2
+```
 
 "ls -l" - outputs detailed information about the files and directories in the current directory.
 
-```$ ls -l
+```
+$ ls -l
 total 116
 drwxr-xr-x 1 yudina yudina  4096 Jun 13 22:05 'Decision trees'
 -rw-r--r-- 1 yudina yudina 25937 Jun 13 22:03 'Decision trees.ipynb'
@@ -39,14 +42,17 @@ drwxr-xr-x 1 yudina yudina  4096 Jun 13 22:05 'Decision trees'
 drwxr-xr-x 1 yudina yudina  4096 Apr  2 20:52  project
 -rw-r--r-- 1 yudina yudina 13601 Jun  7 14:14  svm-svm-perceptron.pdf
 -rw-r--r-- 1 yudina yudina     4 Jun 17 13:46  testfile
--rw-r--r-- 1 yudina yudina     5 Jun 17 13:46  testfile2```
+-rw-r--r-- 1 yudina yudina     5 Jun 17 13:46  testfile2
+```
 
 "ls -a" - outputs all the files and directories including those starting with .
 
-```$ ls -a
+```
+$ ls -a
  .                   'Decision trees'         accuracy-vs-max_depth.png   plot.png            svm-svm-perceptron.pdf
  ..                  'Decision trees.ipynb'   data.csv                    practical_2.ipynb   testfile
- .ipynb_checkpoints   SVM.ipynb               data_after_task2.csv        project             testfile2```
+ .ipynb_checkpoints   SVM.ipynb               data_after_task2.csv        project             testfile2
+```
 
 ### Navigating with the command-line
 
