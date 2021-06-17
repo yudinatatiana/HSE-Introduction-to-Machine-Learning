@@ -307,6 +307,10 @@ Every XXXXXXXX could be from 00000000 to 11111111 (form 0 to 255)
 
 #### Exercise: The Multipath TCP project aims to allow TCP packets to be split across multiple network links and reassembled at the destination. For example, if you were uploading a 100 megabyte file to a server from your phone, it would allow you to send 75 megabytes by WiFi and 25 megabytes by cellular automatically. How should the ratio be chosen if you want to minimise transmission time? Minimise cellular bandwidth use? Explain.
 
+You need to look at the ratio of the data transfer rate through Wi-Fi and through the mobile Internet. If the transmission speed of Wi-Fi is 2 times higher than the transmission speed over the mobile Internet, then using Wi-Fi you need to transfer 2 times more data than using the mobile Internet.
+
+To minimize the mobile network, you either need to send nothing through it, or send data less than 1/3, as I suggested above
+
 #### Exercise: UDP is popular for streaming media; explain why.
 
 UDP is faster and offers lower latency, which is important for streaming media.
