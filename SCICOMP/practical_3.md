@@ -60,6 +60,7 @@ $ ls -a
 
 #### Exercise: Draw a partial tree of your filesystem, starting from the children of your home directory. Include ancestors of your home directory, and siblings of those ancestors. Exclude files, just show directories. Here is mine:
 
+```
 (root)/
     |
     | - bin/
@@ -89,6 +90,7 @@ $ ls -a
     | - tmp/
     | - usr/
     | - var/
+```
 
 ## Shell scripting
 
