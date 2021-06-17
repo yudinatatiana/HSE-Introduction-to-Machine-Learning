@@ -59,48 +59,47 @@ Decimal('0.01000000000000000020816681711721685132943093776702880859375')
 
 #### Exercise: use diagrams like the above to explain how to delete an item from a linked list.
 
-| x[0] | next |--->---| x[1] | next |--->---| x[2] | NULL |
+|x[0]|next|--->---|x[1]|next|--->---|x[2]|NULL|
 
 
-| x[0] | next |                         | x[2] | NULL | 
-               \                       /
-                \                     /
-                 \                   /
-                  \ | x[1] | next | /
+|x[0]|next|                    |x[2]|NULL|
+           \\                 /
+            \\               /
+             \\             /
+               |x[1]|next |/
 
 
-| x[0] | next |----------->-------------| x[2] | NULL | 
+|x[0]|next|----------->-------------|x[2]|NULL|
+
+                | x[1] | next |
 
 
-                    | x[1] | next |
-
-
-
+ 
 ### Trees
 
 #### Exercise: assemble the numbers 1-10 into binary search trees which are (a) maximally unbalanced to the left, (b) balanced, (c) one step from balanced.
 
 a) maximally unbalanced to the left
 
-                   10
+                     10
+                    /
+                   9
                   /
-                 9
+                 8
                 /
-               8
+               7
               /
-             7
+             6
             /
-           6
+           5
           /
-         5
+         4
         /
-       4
+       3
       /
-     3
+     2
     /
-   2
-  /
- 1
+   1
 
 b) balanced
 
