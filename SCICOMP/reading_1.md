@@ -1,4 +1,4 @@
-# Reading 1
+# Computer Architecture I
 
 ## Ideas of electronics
 
@@ -201,6 +201,9 @@ These numbers are one less than the nearest greater power of two. They can be ob
 
 17 = 10001
 
+3 = 11 != 17
+
+
 
 0 = **000**
 
@@ -208,11 +211,16 @@ These numbers are one less than the nearest greater power of two. They can be ob
 
 16 = 10**000**
 
+0 = 8 = 16
+
+
 2 = **010**
 
 10 = **010**10
 
 18 = 10**010**
+
+2 = 10 = 18
 
 ### Binary arithmetic as logical operations
 
