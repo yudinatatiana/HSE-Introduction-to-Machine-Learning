@@ -6,7 +6,6 @@
 
 Asynchronous communication: correspondence by e-mail, in social networks, messengers
 
-
 Synchronous communication: video communication via zoom or skype, phone call
 
 ## Using a CLI
@@ -14,7 +13,6 @@ Synchronous communication: video communication via zoom or skype, phone call
 ### Reading command specifications
 
 #### Exercise: Compare the output of ls vs ls -l and ls -a; describe how they are similar, and how they are different.
-
 
 "ls" - outputs only names of files and directories in the current directory.
 
