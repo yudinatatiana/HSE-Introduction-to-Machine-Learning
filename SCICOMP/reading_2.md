@@ -150,9 +150,27 @@ c) one step from balanced.
 ```
 
 6, 10, 12 have several paths included in them due to the fact that they can be formed by two prime numbers.
-For example, 6 is divisible by 2 and 3 (boths prime).
+For example, 10 is divisible by 2 and 5 (both prime).
 
 #### Exercise: Identify several maximal spanning trees in the divisibility graph from the previous exercise.
+
+```
+          (1) -> (2)
+                    \
+                     \
+                      -> (4) -> (8)
+```
+```
+          (1)
+           |
+           v 
+          (3)
+             \
+              -> (6)
+                  |
+                  v
+                 (12)
+```
 
 #### Exercise: model acquaintance using a graph (vertices are people, an edge between A and B means A knows B). Model it with a directed graph. How are these different?
 
