@@ -56,6 +56,8 @@ $ ls -a
 
 #### Exercise: Explain pushd and popd; what data structure represents your directory history? Give an example of using them to organise a folder with music.
 
+The Pushd command creates a stack and stores directory paths in it. The popd command pops a directory from the stack. Thus, the last added directory becomes the working directory. These commands can be used to create a playlist from music of different genres.
+
 #### Exercise: Draw a partial tree of your filesystem, starting from the children of your home directory. Include ancestors of your home directory, and siblings of those ancestors. Exclude files, just show directories. Here is mine:
 
 ```
@@ -116,6 +118,19 @@ Hello, Tanya
 ```
 
 #### Exercise: Write a shell script that performs "ROT13" (Caesar cipher with shift 13.) For English, encryption and decryption are the same! (Explain why!) Sample interaction:
+
+```
+#!/bin/bash
+
+echo "hello" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+```
+
+```
+$ sed -i $'s/\r$//' ROT13
+$ bash ./ROT13
+uryyb
+```
+Encryption and decryption are the same because the alphabet contains 26 letters in English, so it is devided by 13 into 2 equal halves.
 
 #### Exercise: Write a shell function that prints "hidden" if the current directory starts with a dot ".", or if any parent starts with a dot. (Files and directories that start with dots are considered "hidden" on many UNIX-like systems.) Sample interaction:
 
