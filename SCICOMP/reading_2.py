@@ -21,7 +21,7 @@ print(repr(Decimal(0.01)))
 
 # Exercise: implement the Caesar cipher in python, which advances each letter of 'M' by 'SEC = n': enc(1, "a") = "b", etc.
 
-# In[8]:
+# In[1]:
 
 
 def caesar_cipher(text, step, alphabets):
@@ -36,12 +36,12 @@ def caesar_cipher(text, step, alphabets):
     return text.translate(table)
 
 
-# In[11]:
+# In[4]:
 
 
 import string
 alphabets = (string.ascii_lowercase, string.ascii_uppercase, string.digits)
-caesar_cipher('tanya22', step=4, alphabets=alphabets)
+caesar_cipher('hello', step=13, alphabets=alphabets)
 
 
 # In[ ]:
