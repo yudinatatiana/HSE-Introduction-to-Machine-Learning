@@ -43,6 +43,8 @@ Content-Transfer-Encoding: base64
 
 #### Exercise: Find a piece of software that you use which has an IRC channel for support. Ask a question there about the software. Include your conversation, and a brief description of your experiences.
 
+For Ubuntu there are Ubuntu support channels. For example #ubuntu - Ubuntu help channel
+
 ### Matrix
 
 #### Exercise: together with a friend, try out the Riot.im web client. How does it compare to IRC? To Telegram?
