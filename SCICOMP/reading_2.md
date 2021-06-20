@@ -134,6 +134,24 @@ c) one step from balanced.
 
 #### Exercise: assemble a directed acyclic graph with the numbers 1-12 by strict divisibility: an edge from A to B if B/A is prime. There are no directed cycles, but some nodes do have multiple paths to them. (These form cycles if you ignore the direction.) Which ones? Explain how to decide if a number will have multiple paths to it.
 
+```
+  (11) <-    ->(5) - > (10)
+         \  /      /
+          \/      /
+   (7) <- (1) -> (2)
+           |      | \
+           v      |  \
+          (3)     |   -> (4) -> (8)
+           | \    v
+           v  -> (6)
+          (9)     |
+                  v
+                 (12)
+```
+
+6, 10, 12 have several paths included in them due to the fact that they can be formed by two prime numbers.
+For example, 6 is divisible by 2 and 3 (boths prime).
+
 #### Exercise: Identify several maximal spanning trees in the divisibility graph from the previous exercise.
 
 #### Exercise: model acquaintance using a graph (vertices are people, an edge between A and B means A knows B). Model it with a directed graph. How are these different?
