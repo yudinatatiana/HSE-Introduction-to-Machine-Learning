@@ -174,6 +174,30 @@ For example, 10 is divisible by 2 and 5 (both prime).
 
 #### Exercise: model acquaintance using a graph (vertices are people, an edge between A and B means A knows B). Model it with a directed graph. How are these different?
 
+```
+   (Tanya) --- (Marie)
+         \      /
+          \    /
+          (Lera)
+```
+Tanya knows Marie and Lera
+
+Marie knows Tanya and Lera
+
+Lera knows Tanya and Marie
+
+```
+   (Tanya) <--> (Marie)
+     \            /
+      \          /
+       ->(Lera)<-
+```
+Tanya knows Marie and Lera
+
+Marie knows Tanya and Lera
+
+Lera doesn't know Tanya and Marie
+
 ## Cryptographic ideas
 
 ### Hashing
