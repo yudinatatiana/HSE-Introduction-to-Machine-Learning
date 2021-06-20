@@ -186,9 +186,9 @@ def caesar_cipher(text, step, alphabets):
 ```python
 import string
 alphabets = (string.ascii_lowercase, string.ascii_uppercase, string.digits)
-caesar_cipher('tanya22', step=4, alphabets=alphabets)
+caesar_cipher('hello', step=4, alphabets=alphabets)
 ```
 
 ```
-'xerce66'
+'uryyb'
 ```
